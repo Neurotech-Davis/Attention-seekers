@@ -1,31 +1,13 @@
 # Attention-seekers
-Attention classification and neural entrainment BCI
+Attention classification and neural entrainment BCI 
 
-See notion page for documentation 
+Attention is a limited cognitive resource; in our increasingly distraction rich-environments, controlling and sustaining focus has become more difficult. We propose a brain-computer interface (BCI) that uses EEG-based attention classification to detect inattention, paired with neural entrainment system designed to optimize attentional engagement.
 
-## Tooling
+Our goal is to develop a data-driven understanding of how attentional processes respond to different types of distractors. The long-term objective is to design closed-loop neural entrainment interventions, using auditory or visual stimuli, to gently guide individuals back into optimal focus states.
 
-In general: Using python through the uv package/env manager. 
-Avoiding matlab when possible, unless there seem to be large advantages of EEGLAB over MNE. 
+This has potential applications in education, mental health and productivity, particularly in settings where attention is critical.
 
-Python: 
-- Packagemanager: uv
-- Packages: 
-  - nympy
-  - mne
-  - (open bci api?)
-  - pytorch (?)
+Link to Raw EEG Data (only available to UCD emails):
+https://drive.google.com/drive/folders/1PDOj_jzjRLh3gD620FmYDyX0j5q6C8XA?usp=sharing
 
-install: 
-Mac: 
-- install homebrew
-- install uv via homebre
-
-windows / WLS:
-https://docs.astral.sh/uv/getting-started/installation/???
-
-
-## Software
-
-Included: Stroop task: largely lifted from TODO(Give credit)
 
